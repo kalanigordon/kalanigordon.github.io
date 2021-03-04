@@ -1,0 +1,65 @@
+
+.bio a{
+font-style: italic;
+font-weight: bold;
+}
+
+
+.resume h3{
+font-size:25px;
+font-weight:bold;
+border-bottom: 1px solid #2D302F;
+display:inline-block;
+}
+
+.resume p{
+text-transform:lowercase;
+}
+
+.resume h4{
+text-transform:uppercase;
+color:#8C7A90;
+font-weight:bold;
+  font-family: "Inconsolata", monospace;
+
+}
+
+.title{
+color:#2D302F;
+font-weight:bold;
+display:inline;
+color:#D59D86;
+}
+
+.title::before{
+	content:"— ";
+}
+
+.date{
+font-style:italic;
+font-size:13px;
+display:inline-block;
+}
+
+.location{
+	color:gray;
+	font-size:12px;
+}
+
+.title,
+.description{
+	padding-left: 20px;
+}
+
+
+.uppercase{
+	text-transform:uppercase;
+}
+/*--------------------------------------------------------------
+# ICON
+--------------------------------------------------------------*/
+
+.bi{
+color:#D59D86;
+}
+
