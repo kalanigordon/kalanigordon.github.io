@@ -1,65 +1,74 @@
-
-.bio a{
-font-style: italic;
-font-weight: bold;
+.bio a {
+  font-style: italic;
+  font-weight: bold;
 }
 
-
-.resume h3{
-font-size:25px;
-font-weight:bold;
-border-bottom: 1px solid #2D302F;
-display:inline-block;
+.resume h3 {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid #2d302f;
+  display: inline-block;
 }
 
-.resume p{
-text-transform:lowercase;
+.resume p {
+  text-transform: lowercase;
 }
 
-.resume h4{
-text-transform:uppercase;
-color:#8C7A90;
-font-weight:bold;
+.resume h4 {
+  text-transform: uppercase;
+  color: #d59d86;
+  font-weight: bold;
   font-family: "Inconsolata", monospace;
-
 }
 
-.title{
-color:#2D302F;
-font-weight:bold;
-display:inline;
-color:#D59D86;
+a {
+  text-decoration: underline;
+  text-decoration-color: #d59d86;
+  text-decoration-thickness: 2px;
 }
 
-.title::before{
-	content:"— ";
+.credits a,
+.custom-menu li a {
+  text-decoration: none;
+}
+.title {
+  color: #2d302f;
+  font-weight: bold;
+  display: inline;
+  color: #d59d86;
 }
 
-.date{
-font-style:italic;
-font-size:13px;
-display:inline-block;
+.btn-submit {
+  background: #8c7a90;
+  color: white;
+}
+.title::before {
+  content: "— ";
 }
 
-.location{
-	color:gray;
-	font-size:12px;
+.date {
+  font-style: italic;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.location {
+  color: gray;
+  font-size: 12px;
 }
 
 .title,
-.description{
-	padding-left: 20px;
+.description {
+  padding-left: 20px;
 }
 
-
-.uppercase{
-	text-transform:uppercase;
+.uppercase {
+  text-transform: uppercase;
 }
 /*--------------------------------------------------------------
 # ICON
 --------------------------------------------------------------*/
 
-.bi{
-color:#D59D86;
+.bi {
+  color: #d59d86;
 }
-

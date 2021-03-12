@@ -1,5 +1,5 @@
 @media screen and (max-width: 450px) {
-.mobile-hide{
-display:none;
-}
+  .section {
+    padding: 1rem 0;
+  }
 }
