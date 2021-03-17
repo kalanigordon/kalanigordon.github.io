@@ -1,0 +1,141 @@
+/* ******* NAV ******* */
+
+.custom-nav {
+text-transform: uppercase;
+font-size: smaller;
+letter-spacing: 1px;
+font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav-logo {
+width: 40px;
+}
+
+html {
+position: relative;
+min-height: 100%;
+}
+
+body {
+margin-bottom: 35px;
+}
+
+.footer {
+position: absolute;
+bottom: 0;
+height: 30px;
+}
+
+.footer a{
+font-weight:300;
+color:darkslategray;
+font-size:smaller;
+border-top:1px solid darkgray;
+padding-top:2%;
+}
+
+/* ******* FULL PAGE STYLES ******* */
+
+body {
+font-family: 'PT Sans', sans-serif;
+font-size: 1rem;
+letter-spacing: 0.05em;
+}
+
+a{
+color:black;
+text-decoration:none;
+font-weight:600;
+}
+
+a:hover{
+      color:red;
+}
+
+/* ******* HOMEPAGE ONLY ******* */
+
+h1,
+.subhead {
+font-family: "Rock Salt", cursive;
+line-height: 1.5;
+}
+
+.subhead {
+font-size: 1rem;
+
+}
+.underline{
+      border-bottom:2px solid red;
+display: inline;
+}
+
+.bg{
+      background:red;
+      display:inline-block;
+      color:white;
+      padding: 2px 5px 2px 15px;
+}
+
+/* ******* ABOUT ONLY ******* */
+
+.caption{
+      font-size:.7rem;
+      text-align:justify;
+      padding:2%;
+      color:darkslategray;
+      font-style:italic;
+}
+
+/* ******* RESUME ONLY ******* */
+h2,
+h3{
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight:700;
+      text-transform: uppercase;
+}
+
+.role{
+      font-weight:600;
+      padding:0;
+      margin:0;
+}
+.dates{
+ color:darkgray;
+}
+
+.desc{
+      padding-left:10px;
+}
+
+.dates,
+.desc,
+.list{
+      font-size:.8rem;
+}
+}
+
+li{
+      list-style-type: square;
+}
+
+/* ******* CONTACT ONLY ******* */
+
+.center{
+      text-align:center;
+}
+
+.bi{
+      font-size:1.2rem;
+      padding-right:2%;
+}
+
+/* ******* RED AND BLACK CHANGES ******* */
+
+.red {
+color: #ff0000;
+font-weight: 600;
+}
+
+.xl {
+letter-spacing: .2em;
+}
