@@ -2,8 +2,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-
-
 }
 
 .vax {
@@ -78,6 +76,14 @@ h5 {
   font-size: 12px;
 }
 
+.right{
+  float:right;
+}
+a{
+  color:black;
+  font-weight:bold;
+}
+
 @media (max-width: 450px) {
   .chart {
     display: none;
@@ -90,6 +96,9 @@ padding:10px;
 margin:20px;
 zoom: 0.9;
 
+      }
+      .right{
+        float:none;
       }
     }
     
