@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 25px;
+  background: darkgray;
+}
+
+.vax {
+  background: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.logo {
+  width: 75px;
+}
+
+.spon {
+  line-height: 1.5;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 1%;
+  padding-bottom:5px;
+  vertical-align: middle;
+}
+
+.hed {
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+.sub {
+  font-weight: lighter;
+font-style: italic;
+  color:darkgray;
+  font-size: 10px;
+}
+
+.top {
+  background: black;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.card {
+  margin-top: 10px;
+  border: none;
+}
+
+.card-body,
+.card-title,
+.card-text {
+  line-height: 1.2;
+  margin: 0;
+}
+
+h5 {
+  font-weight: bolder;
+}
+.card-text {
+  font-size: 12px;
+}
+
+.second {
+  padding-top: 4%;
+}
+
+.data {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.chart {
+  zoom: 0.7;
+}
+
+.small {
+  font-size: 12px;
+}
+
+@media (max-width: 450px) {
+  .chart {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+      .chart {
+padding:10px;
+margin:20px;
+zoom: 0.9;
+
+      }
+    }
+    
