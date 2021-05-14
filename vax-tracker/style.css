@@ -10,7 +10,8 @@ body {
 }
 
 .logo {
-  width: 75px;
+  width: 105px;
+    padding-left:3px;
 }
 
 .spon {
@@ -31,7 +32,7 @@ body {
   font-weight: lighter;
 font-style: italic;
   color:darkgray;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .top {
