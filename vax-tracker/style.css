@@ -3,11 +3,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   width:90%;
+  
 }
 
 .vax {
   background: white;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 .logo {
