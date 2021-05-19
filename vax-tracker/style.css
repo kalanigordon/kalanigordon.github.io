@@ -12,7 +12,7 @@ body {
 }
 
 .logo {
-  width: 105px;
+  width: 135px;
     padding-left:3px;
 }
 
@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   border-bottom: 1px solid darkgray;
   margin-bottom: 1%;
-  padding-bottom:5px;
+  padding-bottom:7px;
   vertical-align: middle;
 }
 
