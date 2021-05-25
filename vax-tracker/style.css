@@ -2,12 +2,13 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  width:90%;
+  width:100%;
   
 }
 
 .vax {
   background: white;
+  width:95%;
   padding: 10px 20px 10px 20px;
 }
 
