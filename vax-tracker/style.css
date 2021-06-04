@@ -126,7 +126,9 @@ a {
   .mobile {
     display: none;
   }
-
+.sub{
+  display:block;
+}
   .vax {
     background: white;
     width: 95%;
