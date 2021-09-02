@@ -15,18 +15,27 @@ font-weight:800;
 text-transform: uppercase;
 }
 
-h2,h3{
-font-family: Arial, Helvetica, sans-serif;
+h2{
 text-transform: uppercase;
 color:white;
 background-color: #36454F;
 padding:5px 45px;
-
-}
-h2{
 letter-spacing: 1.5px;
 font-size: .7rem;
 margin-top: 5px;
+}
+
+
+h3{
+    font-size: .9rem;
+    font-weight:700;
+    letter-spacing: 1px;;
+    text-transform: uppercase;
+}
+
+h2,h4{
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .date{
@@ -49,10 +58,38 @@ font-size: .7rem;
 font-style: italic;
 }
 
-.due{
-font-weight:700;
+
+li{
+    list-style: none;
 }
 
-.due::before{
-content:"Due: "
+a{
+    text-decoration: none;
+    color:#36454F;
+    font-weight:700;
+}
+
+a:hover{
+    color:#F88379;
+}
+
+
+h4,
+#due{
+    display:inline;
+    font-size: .7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:slategray;
+    letter-spacing: 1.2px;
+    padding-left:10px;
+    
+}
+
+blockquote{
+    margin-left: 90px;
+}
+
+em{
+    color:darkgray;
 }
