@@ -1,3 +1,12 @@
+.blurb{
+  margin-top:150px;
+}
+@media (max-width:450px) {
+  .blurb{
+    margin-top:0;
+  }
+}
+
 .bio a {
   font-style: italic;
   font-weight: bold;
