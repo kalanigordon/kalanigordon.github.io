@@ -15,32 +15,32 @@ font-family: 'Open Sans', sans-serif;*/
 
 /* 
 
- 
+
 /*NAV*/
 .back{
-    color:darkgray;
-    text-align: right;
-    display:block;
-    }
+color:darkgray;
+text-align: right;
+display:block;
+}
 
-    a{
-        text-decoration: none;
-    }
+a{
+text-decoration: none;
+}
 
-    ol,ul{
-        list-style: square;
-    }
+ol,ul{
+list-style: square;
+}
 
 
-    blockquote{
-        padding-left: 40px;
-    }
+blockquote{
+padding-left: 40px;
+}
 
-    img{
-        padding:20px;
-    }
+img{
+padding:20px;
+}
 
-    code{
-        background: lightgray;
-        padding:2px;
-    }
+code{
+background: lightgray;
+padding:2px;
+}
