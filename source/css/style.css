@@ -113,6 +113,10 @@ a{
     font-size: .7em;
 }
 
+.contact button a{
+    color:white;
+}
+
 .btn:hover{
     color:#334B5B;
     background:#E8E8E8;
