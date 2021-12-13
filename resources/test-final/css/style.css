@@ -1,0 +1,45 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Centered text */
+  .centered {
+    font-size: 2.5em;
+    font-family: Merriweather;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h5{
+    padding-top: 40px;
+    font-family: Merriweather;
+    font-weight: 200;
+    color: rgb(100, 76, 44);
+    font-size: .85em;  
+  }
+
+  .img{
+    box-shadow: 10px 7px #948661;
+    padding: 10px;
+    }
+
+    p{
+      padding-top: 25px;
+      padding-bottom: 25px;
+      font-family: Nanum Gothic;
+      color: black;
+      text-align: left;
+    }
+
+    body{
+      padding-bottom: 50px;
+    }
+
+    video{
+      width:100%
+    }
