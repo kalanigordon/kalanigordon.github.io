@@ -154,11 +154,10 @@ em{
 
 
 @media (max-width:750px){
-    nav,
-    .navbar-brand,
-    .nav-link{
+    .navbar-brand{
         display:none;
     }
+    
     #intro{
         margin:20% 0;
     }
@@ -179,6 +178,9 @@ em{
 @media (max-width:990px){
     .mobile{
         display:none;
+    }
+    main{
+        text-align: left;
     }
     
 }
