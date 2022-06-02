@@ -39,11 +39,6 @@ i{
     padding:0 1em 0 0;
 }
 
-@media (min-width:750px){
-#intro{
-    width:65%;
-}
-}
 
 .row{
     margin:0 0 2em 0;
@@ -159,14 +154,23 @@ em{
     }
     
     #intro{
-        margin:20% 0;
+        margin:10% 0;
     }
 }
 
+@media (min-width:750px){
+    #intro{
+        width:65%;
+    }
+    }
+    
 
 @media (max-width:350px){
     #intro{
-        margin:10% 0;
+        margin:0 0;
+    }
+    body{
+        font-size:12px;
     }
 }
 
@@ -186,7 +190,11 @@ em{
 }
 
 
-
+@media(min-width:450px){
+    br{
+        display: none;
+    }
+}
 
 /* ///// */
 
