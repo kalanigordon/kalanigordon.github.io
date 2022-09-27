@@ -1,5 +1,5 @@
 @font-face {
-    font-family: barlow-regular;
+    font-family: barlow;
     src: url(../barlow/Barlow-Regular.ttf);
 }
 
@@ -14,13 +14,12 @@
     font-size: 16px;
     background: white;
     padding: 1em;
-    font-family: barlow-regular;
+    font-family: barlow, 'open sans',sans-serif;
 }
 
 /* // RACENAME //  */
 .vg-section .vg-racename, .vg-section b {
     display: block;
-font-family: barlow-bold;
     font-size: 1.1em;
     letter-spacing: .1em;
     padding:0;
@@ -146,11 +145,9 @@ font-family: barlow-bold;
 .vg-section .vg-button a{
     background:goldenrod;
     border:none;
-    font-family: barlow-regular;
     font-size:1em;
     letter-spacing:.8px;
     padding:.5em;
-    font-weight:400;
     text-decoration:none;
     text-transform:uppercase;
     color:white;  
