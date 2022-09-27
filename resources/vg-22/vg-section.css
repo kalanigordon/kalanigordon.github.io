@@ -54,6 +54,47 @@
 
 
 
+/* // DNR NOTE //  */
+
+.vg-section .vg-note {
+    color: gray;
+    font-size: .7em;
+    padding: 1em 0;
+    font-style: italic;
+}
+
+.vg-section .vg-candidates .dnr {
+    color: lightgray;
+}
+
+.vg-section .vg-candidates .dnr::after {
+    content: " * "
+}
+
+
+/* // BUTTON //  */
+
+.vg-section .vg-button a {
+    background: goldenrod;
+    border: none;
+    font-size: 1em;
+    letter-spacing: .8px;
+    padding: .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    margin: .3em;
+
+}
+
+.vg-more::after {
+    content: "\00BB";
+}
+
+
+
+
 
 
 /* // PARTY IDENTIFIERS //  */
@@ -117,47 +158,6 @@
     content: "\2729";
     font-size: .8em;
 }
-
-
-
-/* // DNR NOTE //  */
-
-.vg-section .vg-note {
-    color: gray;
-    font-size: .7em;
-    padding: 1em 0;
-    font-style: italic;
-}
-
-.vg-section .vg-candidates .dnr {
-    color: lightgray;
-}
-
-.vg-section .vg-candidates .dnr::after {
-    content: " * "
-}
-
-
-/* // BUTTON //  */
-
-.vg-section .vg-button a {
-    background: goldenrod;
-    border: none;
-    font-size: 1em;
-    letter-spacing: .8px;
-    padding: .5em;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    display: inline-block;
-    margin: .3em;
-
-}
-
-.vg-more::after {
-    content: "\00BB";
-}
-
 
 
 
