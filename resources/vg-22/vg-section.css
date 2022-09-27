@@ -30,10 +30,8 @@
 
 }
 
-.vg-section .vg-key i{
-    color: gray;
-    font-size: .8em;
-    padding: 1em 0;
+.vg-section a:hover{
+    color:goldenrod;
 }
 
 
@@ -43,9 +41,37 @@
     font-style: italic;
     color:darkgray;
     text-decoration: none;
-    
 }
 
+
+.vg-section .vg-key i{
+    color: gray;
+    font-size: .8em;
+    padding: 1em 0;
+}
+
+
+
+/* // BUTTONS ONLY */
+
+
+.vg-button a{
+    text-decoration: none;
+    color:black;
+    background-color: goldenrod;
+padding:.5em;
+margin:.3em;
+font-weight: 500;
+text-transform: uppercase;
+font-size: .8em;
+border-radius: 5%;
+letter-spacing: .1em;
+}
+
+.vg-button a:hover{
+    background-color: black;
+    color:white;
+}
 
 /* // DNR  //  */
 
@@ -113,6 +139,6 @@
 
 .nonp::before {
     content: "\2729";
-    font-size: .8em;
+    font-size: .85em;
 }
 
