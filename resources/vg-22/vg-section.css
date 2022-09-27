@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* // BLOCK //  */
 
@@ -8,60 +8,35 @@
     font-family: 'Barlow', sans-serif;
 
 }
-.vg-section p {
+.vg-section p,
+.vg-section b {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     line-height: 1.25;
     padding:0;
     margin:0;
+    text-transform: uppercase;
 }
 
-/* // RACENAME //  */
-.vg-section .vg-racename,
-.vg-section b {
+.vg-section b,
+.vg-section i{
     display: block;
-    font-family: 'Barlow', sans-serif;
-    font-size: 1.1em;
-    letter-spacing: .1em;
-    padding: 0;
-    margin: 0;
+}
+
+
+.vg-section b{
+    font-weight: 700;
     line-height:2;
-    text-transform: uppercase;
 }
 
-/* // CANDIDATES LIST // */
-.vg-section .vg-candidates {
-    padding: 1em 0;
-}
-
-.vg-section .vg-candidates a,
-.vg-section .vg-candidates p,
-.vg-section .vg-more {
-    display: block;
-    line-height: 1.33;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-}
-
-.vg-section .vg-more:hover,
-.vg-section .vg-candidates a:hover {
-    color: goldenrod;
-}
-
-
-
-
-/* // DNR NOTE //  */
-
-.vg-section .vg-note {
+.vg-section i{
     color: gray;
     font-size: .7em;
     padding: 1em 0;
-    font-style: italic;
 }
+
+/* // DNR  //  */
+
 
 .vg-section .vg-candidates .dnr {
     color: lightgray;
@@ -70,31 +45,6 @@
 .vg-section .vg-candidates .dnr::after {
     content: " * "
 }
-
-
-/* // BUTTON //  */
-
-.vg-section .vg-button a {
-    background: goldenrod;
-    border: none;
-    font-size: 1em;
-    letter-spacing: .8px;
-    padding: .5em;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    display: inline-block;
-    margin: .3em;
-
-}
-
-.vg-more::after {
-    content: "\00BB";
-}
-
-
-
-
 
 
 /* // PARTY IDENTIFIERS //  */
@@ -139,11 +89,6 @@
     padding: 0 .3em 0 0;
 }
 
-.party {
-    text-transform: uppercase;
-}
-
-
 .unaff::before,
 .lib::before,
 .dem::before,
@@ -159,155 +104,3 @@
     font-size: .8em;
 }
 
-
-
-/* 
-
-
-.race-id {
-
-padding: 10px 0;
-margin: 0;
-display: block;
-font-weight: 800;
-font-size: 2em;
-
-}
-
-
-
-
-
-.vg-section .district{
-display:none;
-}
-.vg-section:after{
-content: "";
-display: table;
-clear: both;
-}
-.candidate-col{
-float: left;
-width: 50%;
-}
-
-.candidate-col-sm{
-float: left;
-width: 25%;
-}
-
-.candidate-col-md{
-width:33.33%;
-float: left;
-}
-
-.vg-section p,
-.vg-section a {
-font-family: 'Barlow', sans-serif;
-text-transform: uppercase;
-display: block;
-padding: 0;
-font-weight:500;
-font-size: 15px;
-margin: 0;
-line-height: 1.5;
-letter-spacing:.7px;
-text-decoration: none;
-}
-
-.vg-section .racename {
-letter-spacing: 1.2px;
-font-weight: 700;
-font-size: 1.2em;
-margin: 0;
-}
-
-.vg-section hr {
-margin: 15px 0;
-width:55%;
-
-}
-
-.vg-section .dnr {
-color: #b9b9b9;
-}
-
-.dnr::after{
-content:"*";
-font-size:.8em;
-padding: 0 0 0 3px;
-}
-
-.vg-section a {
-color: black;
-}
-
-.vg-section .d{
-font-weight: bold;
-}
-.vg-section .d::before{
-content: "district ";
-text-transform:uppercase;
-line-height:3;
-padding: 0 0 0 20px;
-}
-
-
-@media (max-width: 775px){
-.candidate-col-sm{
-float: left;
-width: 100%;
-}
-
-}
-
-@media (max-width:500px){
-.candidate-col,
-.candidate-col-md{
-float: none;
-width: 100%;
-}
-
-.vg-section .d::before{
-
-padding: 0 0 0 0;
-}
-
-
-
-
-.break{
-display:block;
-}
-
-.candidate-col-mini{
-float:left;
-width:100%;
-}
-
-}
-
-
-
-
-
-.candidate-col-mini{
-float:left;
-width:20%;
-}
-
-
-@media (min-width:500px){
-.vg-button{
-width:100%;
-margin:0 auto;
-
-}
-}
-
-@media (max-width:400px){
-.vg-button{
-width: 90%;
-margin:0;
-}
-} */
