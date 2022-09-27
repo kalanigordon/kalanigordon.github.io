@@ -36,6 +36,20 @@
     padding: 1em 0;
 }
 
+
+/* // KEY ONLY */
+.vg-key p{
+    text-transform: uppercase;
+}
+
+.vg-more{
+    font-style: italic;
+    color:darkgray;
+    text-decoration: none;
+    display: inline;
+}
+
+
 /* // DNR  //  */
 
 
