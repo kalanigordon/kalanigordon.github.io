@@ -15,7 +15,6 @@
     line-height: 1.25;
     padding:0;
     margin:0;
-    text-transform: uppercase;
 }
 
 .vg-section b,
@@ -27,11 +26,13 @@
 .vg-section b{
     font-weight: 700;
     line-height:2;
+    text-transform: uppercase;
+
 }
 
 .vg-section i{
     color: gray;
-    font-size: .7em;
+    font-size: .8em;
     padding: 1em 0;
 }
 
