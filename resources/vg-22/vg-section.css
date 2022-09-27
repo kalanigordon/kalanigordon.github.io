@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
+
+/* // BLOCK //  */
+
+.vg-section {
+    font-size: 16px;
+    background: white;
+    padding: 1em;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* // RACENAME //  */
+.vg-section .vg-racename, .vg-section b {
+    display: block;
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+    padding:0;
+    margin:0;
+    text-transform: uppercase;
+}
+
+/* // CANDIDATES LIST // */
+.vg-section .vg-candidates{
+    padding:1em 0;
+}
+
+.vg-section .vg-candidates a,
+.vg-section .vg-candidates p,
+.vg-section .vg-more{
+    display:block;
+    line-height: 1.33;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+
+.vg-section .vg-more:hover, 
+.vg-section .vg-candidates a:hover{
+    color:goldenrod;
+}
+
+
+/* // */
+.vg-section .party{
+    line-height:.5;
+}
+
+
+
+
+
+
+
+/* // PARTY IDENTIFIERS //  */
+.rep::before {
+    color: red;
+}
+
+.dem::before {
+    color: blue;
+}
+
+.lib::before {
+    color: goldenrod;
+}
+
+.green::before {
+    color: green;
+}
+
+.working::before{
+    color:#471e81;
+}
+
+
+.unaff::before {
+    color: darkgray;
+}
+.nonp::before{
+    color:#000;
+}
+
+.unaff::before,
+.lib::before,
+.dem::before,
+.rep::before,
+.working::before,
+.green::before,
+.nonp::before{
+    display: inline;
+    font-weight: bold;
+    padding: 0 .3em 0 0;
+}
+
+.party{
+    text-transform: uppercase;
+}
+
+
+.unaff::before,
+.lib::before,
+.dem::before,
+.rep::before,
+.working::before,
+.green::before {
+    content: "\2605";
+    font-size: .8em;
+}
+.nonp::before{
+    content: "\2729";
+    font-size: 1em;
+}
+
+
+
+/* // DNR NOTE //  */
+
+.vg-section .vg-note {
+    color: gray;
+    font-size: .7em;
+    padding: 1em 0;
+    font-style: italic;
+}
+
+.vg-section .vg-candidates .dnr{
+    color:lightgray;
+}
+.vg-section .vg-candidates .dnr::after{
+    content:" * "
+}
+
+
+/* // BUTTON //  */
+
+.vg-section .vg-button a{
+    background:goldenrod;
+    border:none;
+    font-family: 'Barlow', sans-serif;
+    font-size:1em;
+    letter-spacing:.8px;
+    padding:.5em;
+    font-weight:400;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;  
+    display:inline-block;
+    margin: .3em;
+    
+    }
+
+    .vg-more::after{
+    content:"\00BB";
+}
+
+
+
+
+/* 
+
+
+.race-id {
+
+padding: 10px 0;
+margin: 0;
+display: block;
+font-weight: 800;
+font-size: 2em;
+
+}
+
+
+
+
+
+.vg-section .district{
+display:none;
+}
+.vg-section:after{
+content: "";
+display: table;
+clear: both;
+}
+.candidate-col{
+float: left;
+width: 50%;
+}
+
+.candidate-col-sm{
+float: left;
+width: 25%;
+}
+
+.candidate-col-md{
+width:33.33%;
+float: left;
+}
+
+.vg-section p,
+.vg-section a {
+font-family: 'Barlow', sans-serif;
+text-transform: uppercase;
+display: block;
+padding: 0;
+font-weight:500;
+font-size: 15px;
+margin: 0;
+line-height: 1.5;
+letter-spacing:.7px;
+text-decoration: none;
+}
+
+.vg-section .racename {
+letter-spacing: 1.2px;
+font-weight: 700;
+font-size: 1.2em;
+margin: 0;
+}
+
+.vg-section hr {
+margin: 15px 0;
+width:55%;
+
+}
+
+.vg-section .dnr {
+color: #b9b9b9;
+}
+
+.dnr::after{
+content:"*";
+font-size:.8em;
+padding: 0 0 0 3px;
+}
+
+.vg-section a {
+color: black;
+}
+
+.vg-section .d{
+font-weight: bold;
+}
+.vg-section .d::before{
+content: "district ";
+text-transform:uppercase;
+line-height:3;
+padding: 0 0 0 20px;
+}
+
+
+@media (max-width: 775px){
+.candidate-col-sm{
+float: left;
+width: 100%;
+}
+
+}
+
+@media (max-width:500px){
+.candidate-col,
+.candidate-col-md{
+float: none;
+width: 100%;
+}
+
+.vg-section .d::before{
+
+padding: 0 0 0 0;
+}
+
+
+
+
+.break{
+display:block;
+}
+
+.candidate-col-mini{
+float:left;
+width:100%;
+}
+
+}
+
+
+
+
+
+.candidate-col-mini{
+float:left;
+width:20%;
+}
+
+
+@media (min-width:500px){
+.vg-button{
+width:100%;
+margin:0 auto;
+
+}
+}
+
+@media (max-width:400px){
+.vg-button{
+width: 90%;
+margin:0;
+}
+} */
+
+
+
