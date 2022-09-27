@@ -57,7 +57,7 @@
 
 .vg-button a{
     text-decoration: none;
-    color:black;
+    color:white;
     background-color: goldenrod;
 padding:.5em;
 margin:.3em;
@@ -69,8 +69,8 @@ letter-spacing: .1em;
 }
 
 .vg-button a:hover{
-    background-color: black;
-    color:white;
+    background-color: goldenrod;
+    color:black;
 }
 
 /* // DNR  //  */
