@@ -115,7 +115,7 @@
 
 .nonp::before {
     content: "\2729";
-    font-size: 1em;
+    font-size: .8em;
 }
 
 
