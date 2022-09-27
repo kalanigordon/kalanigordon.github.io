@@ -63,7 +63,7 @@
 /* // BUTTONS ONLY */
 
 
-.vg-section .vg-button a{
+.vg-button a{
     text-decoration: none;
     color:white;
     background-color: goldenrod;
@@ -76,7 +76,7 @@ border-radius: 5%;
 letter-spacing: .1em;
 }
 
-.vg-section .vg-button a:hover{
+.vg-button a:hover{
     background-color: goldenrod;
     color:black;
 }
