@@ -9,7 +9,8 @@
 
 }
 .vg-section p,
-.vg-section b {
+.vg-section b,
+.race-id {
     font-family: 'Barlow', sans-serif;
     font-size: 14px;
     line-height: 1.25;
@@ -48,6 +49,13 @@
     color: gray;
     font-size: .8em;
     padding: 1em 0;
+}
+
+/* RACE ID */
+.race-id{
+    font-weight:700;
+    font-size:1.2em;
+    letter-spacing: .05rem;
 }
 
 
