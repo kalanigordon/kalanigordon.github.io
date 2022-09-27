@@ -30,23 +30,20 @@
 
 }
 
-.vg-section i{
+.vg-section .vg-key i{
     color: gray;
-    font-size: .9em;
+    font-size: .8em;
     padding: 1em 0;
 }
 
 
 /* // KEY ONLY */
-.vg-key p{
-    text-transform: uppercase;
-}
 
 .vg-more{
     font-style: italic;
     color:darkgray;
     text-decoration: none;
-    display: inline;
+    
 }
 
 
