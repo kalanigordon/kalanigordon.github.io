@@ -37,9 +37,10 @@
 
 .vg-section .district{
 color:gray;
-font-size:1em;
-
+font-size:.8rem;
+font-weight: 400;
 }
+
 .vg-section a:hover {
     color: goldenrod;
 }
