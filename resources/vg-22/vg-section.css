@@ -2,90 +2,107 @@
 
 /* // BLOCK //  */
 
-.vg-section{
+.vg-section {
     background: white;
     padding: 1em;
     font-family: 'Barlow', sans-serif;
 
 }
+
 .vg-section p,
 .vg-section b,
 .race-id {
     font-family: 'Barlow', sans-serif;
     font-size: 14px;
     line-height: 1.25;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .vg-section b,
-.vg-section i{
+.vg-section i {
     display: block;
 }
 
 
-.vg-section b{
+.vg-section b {
     font-weight: 700;
-    line-height:2;
+    line-height: 2;
+    font-size: 1.2em;
+    letter-spacing:.1em;
     text-transform: uppercase;
 
 }
 
-.vg-section a:hover{
-    color:goldenrod;
+.vg-section a:hover {
+    color: goldenrod;
 }
+
+
+/* CANDIDATE BLOCK */
+
+.vg-candidates p,
+.vg-candidates a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+}
+
+.vg-candidates a{
+    color:black;
+}
+
 
 
 /* // KEY ONLY */
 
-.vg-more{
+.vg-more {
     font-style: italic;
-    color:darkgray;
+    color: darkgray;
     text-decoration: none;
 }
 
-
-.vg-section .vg-key i{
+.vg-section .vg-key i {
     color: gray;
     font-size: .8em;
     padding: 1em 0;
 }
 
 /* RACE ID */
-.race-id{
-    font-weight:700;
-    font-size:1.5em;
+.race-id {
+    font-weight: 700;
+    font-size: 1.5em;
     letter-spacing: .05rem;
 }
-
 
 
 /* // BUTTONS ONLY */
 
 
-.vg-button a{
+.vg-button a {
     text-decoration: none;
-    color:white;
+    color: white;
     background-color: goldenrod;
-padding:.5em;
-margin:.3em;
-font-weight: 600;
-text-transform: uppercase;
-font-size: .8em;
-border-radius: 5%;
-letter-spacing: .1em;
+    padding: .5em;
+    margin: .3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .8em;
+    border-radius: 5%;
+    letter-spacing: .1em;
 }
 
-.vg-button a:hover{
+.vg-button a:hover {
     background-color: goldenrod;
-    color:black;
+    color: black;
 }
 
 /* // DNR  //  */
 
 
 .vg-section .vg-candidates .dnr {
-    color: lightgray;
+    color: #C5C5C5;
 }
 
 .vg-section .vg-candidates .dnr::after {
@@ -149,4 +166,3 @@ letter-spacing: .1em;
     content: "\2729";
     font-size: .85em;
 }
-
