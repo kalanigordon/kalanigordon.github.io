@@ -149,7 +149,7 @@ display: block;    }
     color: black;
 }
 
-@media (max-width:600px){
+@media (max-width:750px){
     .vg-button a{
         line-height:3;
     }
