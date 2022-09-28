@@ -2,11 +2,16 @@
 
 /* // BLOCK //  */
 
+
 .vg-section {
-    background: white;
+
     padding: 1em;
-    height:100%;
     font-family: 'Barlow', sans-serif;
+}
+
+.vg-section,
+.candidate-col {
+    background: white;
 
 }
 
@@ -30,10 +35,10 @@
 
 .vg-section b {
     font-weight: 700;
-padding:.5em 0 1em 0;
-margin:0;
+    padding: .5em 0 1em 0;
+    margin: 0;
     font-size: 1.1em;
-    letter-spacing:.1em;
+    letter-spacing: .1em;
     text-transform: uppercase;
 }
 
@@ -51,29 +56,48 @@ margin:0;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 
 }
 
-.vg-candidates a{
-    color:black;
+.vg-candidates a {
+    color: black;
 }
 
-.vg-section .district{
-    color:gray;
-    font-size:.9em;
-    line-height:3;
-    padding:0;
-    margin:0;
+.vg-section .district {
+    color: gray;
+    font-size: .9em;
+    line-height: 3;
+    padding: 0;
+    margin: 0;
     font-weight: 400;
-    }
+}
 
-    .candidate-col{
-        flex:1;
-        float:left;
-        padding:0 1em 0 0;
+
+.vg-candidates {
+    background: white;
+    display: flex;
+}
+
+
+.candidate-col {
+    padding: 0 1em 0 0;
+    flex:1;
+}
+
+@media (max-width:900px) {
+    .vg-candidates {
+display: block;    }
+    
+    
+    .candidate-col {
+        padding: 0 1em 0 0;
+        flex:0;
     }
+}
+
+
 /* // KEY ONLY */
 
 .vg-more {
