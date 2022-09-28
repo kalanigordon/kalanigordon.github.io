@@ -68,6 +68,11 @@ margin:0;
     font-weight: 400;
     }
 
+    .candidate-col{
+        flex:1;
+        float:left;
+        padding:0 1em 0 0;
+    }
 /* // KEY ONLY */
 
 .vg-more {
