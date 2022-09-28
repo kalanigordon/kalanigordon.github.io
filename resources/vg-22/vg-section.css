@@ -77,9 +77,11 @@
 
 .vg-candidates {
     background: white;
-    display: flex;
 }
 
+.vg-columns{
+    display:flex;
+}
 
 .candidate-col {
     padding: 0 1em 0 0;
@@ -87,7 +89,7 @@
 }
 
 @media (max-width:900px) {
-    .vg-candidates {
+    .vg-columns {
 display: block;    }
     
     
