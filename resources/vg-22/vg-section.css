@@ -49,6 +49,12 @@
 }
 
 
+/* // BALLOT Q LINK BOX */
+.vg-ballotq a{
+    color:goldenrod;
+    text-decoration: none;
+}
+
 /* CANDIDATE BLOCK */
 
 .vg-candidates p,
