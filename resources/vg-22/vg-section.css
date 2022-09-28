@@ -149,11 +149,9 @@ display: block;    }
     color: black;
 }
 
-@media (max-width:750px){
     .vg-button a{
         line-height:3;
     }
-}
 
 /* // DNR  //  */
 
