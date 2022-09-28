@@ -54,7 +54,7 @@
 /* RACE ID */
 .race-id{
     font-weight:700;
-    font-size:1.2em;
+    font-size:1.5em;
     letter-spacing: .05rem;
 }
 
@@ -69,7 +69,7 @@
     background-color: goldenrod;
 padding:.5em;
 margin:.3em;
-font-weight: 500;
+font-weight: 600;
 text-transform: uppercase;
 font-size: .8em;
 border-radius: 5%;
