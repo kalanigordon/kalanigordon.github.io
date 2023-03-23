@@ -58,7 +58,6 @@ h2{
 }
 
 .exp,
-.date,
 .org,
 .prior{
     text-transform: uppercase;
@@ -73,13 +72,15 @@ h2{
     letter-spacing: .2em;
 }
 
+
 .title{
     font-weight:500;
 }
 
 .date{
     font-weight:100;
-    font-size: .8em;
+    font-size: .75em;
+    font-style: italic;
 }
 
 .desc{
@@ -151,7 +152,18 @@ em{
  letter-spacing: .05em;
 }
 
+ul,li{
+    list-style-type: none;
+}
+.org{
+    list-style-type:disc;
+    line-height:3;
+}
 
+
+b{
+    line-height:3;
+}
 @media (max-width:750px){
     .navbar-brand{
         display:none;
