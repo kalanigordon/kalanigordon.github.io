@@ -94,3 +94,9 @@ nav{
 .link a:hover{
     color:#CEB3AB;
 }
+
+@media (max-width:556px){
+    .container-fluid{
+        max-width: 95%;
+    }
+}
