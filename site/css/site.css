@@ -1,0 +1,82 @@
+/*
+
+--antiflash-white: #f6f6f8;
+--timberwolf: #dcd7d3;
+--davys-gray: #5e5b57;
+--desert-sand: #edd2bb;
+--chamoisee: #946f5c;
+--rose-ebony:#6D454C;
+
+
+font-family: 'Arsenal',
+sans-serif;
+font-family: 'Palanquin',
+sans-serif;
+font-family: 'Assistant',
+sans-serif;
+
+*/
+
+.container {
+    width: 47%;
+    height: 75vh;
+    margin: 17% auto auto auto;
+}
+
+body {
+    font-family: 'Palanquin',
+        sans-serif;
+    font-size: 15px;
+    background-color: #DCD7D3;
+    color: #5e5b57;
+}
+
+h1 {
+    font-family: 'Arsenal',
+        sans-serif;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+h2 {
+    font-family: 'Arsenal',
+        sans-serif;
+}
+
+a {
+    color: #946f5c;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:hover {
+    color: #6D454C;
+}
+
+.bi-chevron-down {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin: 37%;
+    color: #946f5c;
+}
+
+#contact i {
+    padding: 0 2% 0 0;
+}
+
+#contact a {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+@media (max-width:556px) {
+    .container {
+        width: 87%;
+        margin: 55% auto auto auto;
+    }
+}
