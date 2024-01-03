@@ -15,7 +15,19 @@ sans-serif;
 font-family: 'Assistant',
 sans-serif;
 
+
+font-family: "komet-sc",
+sans-serif;
+
+font-family: "komet",
+sans-serif;
+
+font-family: "arponasans",
+sans-serif;
+font-family: "swear-display",
+serif;
 */
+
 
 .container {
     width: 47%;
@@ -24,7 +36,7 @@ sans-serif;
 }
 
 body {
-    font-family: 'Palanquin',
+    font-family: "arponasans",
         sans-serif;
     font-size: 15px;
     background-color: #DCD7D3;
@@ -32,15 +44,27 @@ body {
 }
 
 h1 {
-    font-family: 'Arsenal',
+    font-family: "swear-display", serif;
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+
+h1 span {
+    display: block;
+    font-family: "komet",
         sans-serif;
-    text-transform: capitalize;
-    font-weight: 200;
+    font-size: .3em;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 h2 {
-    font-family: 'Arsenal',
-        sans-serif;
+    font-family: "swear-display", serif;
+
+    text-transform: lowercase;
 }
 
 a {
@@ -67,7 +91,6 @@ a:hover {
 
 #contact a {
     text-transform: uppercase;
-    font-weight: 500;
     font-size: 13px;
     letter-spacing: 1px;
 }
