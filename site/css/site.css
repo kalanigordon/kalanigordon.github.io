@@ -54,12 +54,21 @@ a:hover {
     color: #946F5C;
 }
 
-li {
-    list-style-type: none;
+i {
+    font-size: .75em;
 }
 
+nav {
+    margin: 3% 0;
+}
 
-/* // */
+nav a {
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: 1.5px;
+}
+
+/* #home */
 
 #home .lead {
     font-weight: 200;
@@ -78,10 +87,17 @@ h1 {
     padding: 0 0 3% 0;
 }
 
-h1 span {
-    display: block;
-    font-size: .33em;
+#home nav a {
+    font-weight: 700;
 }
+
+/* #contact */
+
+#contact .list a {
+    display: block;
+}
+
+/* subpages */
 
 h2 {
     font-weight: 200;
@@ -89,36 +105,15 @@ h2 {
 }
 
 
-nav {
-    margin: 3% 0;
-}
-
-nav a {
-    text-transform: uppercase;
-    font-size: .75em;
-    letter-spacing: 1.5px;
-}
-
-#home nav a {
-    font-weight: 700;
-}
 
 
-/* /// */
-
-.page-error i {
-    font-size: .75em;
-}
-
+/* icons */
 .bi {
     color: #6D454C;
     padding: 0 1% 0 0;
 }
 
 
-.list a {
-    display: block;
-}
 
 
 
